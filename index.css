@@ -1,0 +1,95 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: black;
+  font-size: 26px;
+  font-family: "Roboto";
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.button-box1 {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.button-box2 {
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.button-box3 {
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.button-box4 {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.para {
+  color: white;
+
+  font-size: 15px;
+  font-family: "Roboto";
+}
+
+.icon {
+  height: 15px;
+  width: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+}
