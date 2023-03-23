@@ -35,50 +35,35 @@ body {
   margin: 10px;
 }
 
-.button-box1 {
+.button{
   display: flex;
   flex-direction: row;
-  background-color: blue;
-  justify-content: flex-start;
-  align-items: center;
+  height: 50px;
+  width: 350px;
+    align-items: center;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 3px;
+  justify-content: flex-start;
+}
+.box1{
+background-color: blue;
 }
 
-.button-box2 {
-  display: flex;
-  flex-direction: row;
-  background-color: green;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 10px;
-  border-radius: 3px;
+.box2{
+ background-color: green;
+}
+.box3{
+background-color: yellow;
+}
+.box4{
+background-color:red;
 }
 
-.button-box3 {
-  display: flex;
-  flex-direction: row;
-  background-color: yellow;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 10px;
-  border-radius: 3px;
-}
-
-.button-box4 {
-  display: flex;
-  flex-direction: row;
-  background-color: red;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 10px;
-  border-radius: 3px;
-}
 
 .para {
   color: white;
-
+margin-left: 10px;
   font-size: 15px;
   font-family: "Roboto";
 }

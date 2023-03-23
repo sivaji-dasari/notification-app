@@ -9,7 +9,7 @@ const element = (
   <div className="bg-container">
     <h1 className="heading">Notifications</h1>
     <div className="buttons-container">
-      <div className="button-box1">
+      <div className="button box1">
         <img
           src="https://assets.ccbp.in/frontend/react-js/primary-icon-img.png"
           className="icon"
@@ -17,7 +17,7 @@ const element = (
         <Notification text="Information Message" />
       </div>
 
-      <div className="button-box2">
+      <div className="button box2">
         <img
           src="https://assets.ccbp.in/frontend/react-js/success-icon-img.png"
           className="icon"
@@ -25,7 +25,7 @@ const element = (
         <Notification text="Success Message" />
       </div>
 
-      <div className="button-box3">
+      <div className="button box3">
         <img
           src="https://assets.ccbp.in/frontend/react-js/warning-icon-img.png"
           className="icon"
@@ -33,7 +33,7 @@ const element = (
         <Notification text="Wrong Message" />
       </div>
 
-      <div className="button-box4">
+      <div className="button box4">
         <img
           src="https://assets.ccbp.in/frontend/react-js/danger-icon-img.png"
           className="icon"
